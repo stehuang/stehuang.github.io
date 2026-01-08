@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2 | Stella Huang</title><link>https://stehuang.github.io/publication-type/2.html</link><atom:link href="https://stehuang.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml"/><description>2</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://stehuang.github.io/media/icon_hu11734318148517933569.png</url><title>2</title><link>https://stehuang.github.io/publication-type/2.html</link></image><item><title>Nonlinear Causal Discovery in the Presence of Unobserved Variables</title><link>https://stehuang.github.io/publications/2026_nonlinear_latent_cd.html</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://stehuang.github.io/publications/2026_nonlinear_latent_cd.html</guid><description>&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Learning (nonlinear) causal relations amongst observed variables when there are hidden/latent variables present&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Objective: learn the maximal ancestral graph (MAG), where variables are connected by directed edges (X -&amp;gt; Y) or bi-directed edges (X &amp;lt;-&amp;gt; Y) that indicate causal relations and confounding relations, respectively&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Involves residual independence testing, log-likelihood estimation, and model selection methods to determine (1) the existence of confounders and (2) causal relations, when possible&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Nonlinear Causal Discovery through a Sequential Edge Orientation Approach</title><link>https://stehuang.github.io/publications/2025_nonlinear_causal_learning.html</link><pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate><guid>https://stehuang.github.io/publications/2025_nonlinear_causal_learning.html</guid><description>&lt;h2 id="abstract">Abstract&lt;/h2>
+&lt;p>Recent advances have established the identifiability of a directed acyclic graph (DAG) under additive noise models (ANMs), spurring the development of various causal discovery methods. However, most existing methods make restrictive model assumptions, rely heavily on general independence tests, or require substantial computational time. To address these limitations, we propose a sequential procedure to orient undirected edges in a completed partial DAG (CPDAG), representing an equivalence class of DAGs, by leveraging the pairwise additive noise model (PANM) to identify their causal directions. We prove that this procedure can recover the true causal DAG assuming a restricted ANM. Building on this result, we develop a novel constraint-based algorithm for learning causal DAGs under nonlinear ANMs. Given an estimated CPDAG, we develop a ranking procedure that sorts undirected edges by their adherence to the PANM, which defines an evaluation order of the edges. To determine the edge direction, we devise a statistical test that compares the log-likelihood values, evaluated with respect to the competing directions, of a sub-graph comprising just the candidate nodes and their identified parents in the partial DAG. We further establish the structural learning consistency of our algorithm in the large-sample limit. Extensive experiments on synthetic and real-world datasets demonstrate that our method is computationally efficient, robust to model misspecification, and consistently outperforms many existing nonlinear DAG learning methods.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>Developed a scalable algorithm to determine (nonlinear) causal relations given the Markov Equivalence Class, or from any partially directed graph&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Algorithm consists of 4 steps:&lt;/p>
+&lt;ol>
+&lt;li>Learn the Markov Equivalence Class&lt;/li>
+&lt;li>Orient all undirected edges in a sequential, ordered manner using a likelihood-based test to determine the causal direction&lt;/li>
+&lt;li>Prune the learned graph to remove false positives&lt;/li>
+&lt;li>Orient remaining undirected edges by applying the sequential orientation procedure again&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>Shows (1) consistent performance across linear/invertible/non-invertible functions types, (2) higher F1 scores against competing methods, and (3) near 10-fold reduction in algorithm runtime&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="methodology">Methodology&lt;/h2>
+&lt;p>To determine the causal direction of undirected edges (pairs of variables in graph with no edge direction), we created the two original components:&lt;/p>
+&lt;ol>
+&lt;li>Ranking procedure for undirected edges (undetermined causal directions):&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Ranking undirected edges based on metric that measures adherence to model assumptions (need independence between residual term and covariate)&lt;/li>
+&lt;li>Naturally produces an evaluation order that allows for correct inference, avoiding possible latent variables&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Likelihood-ratio test for causality:&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Employing a likelihood-ratio test to compare and determine the competing directions X -&amp;gt; Y and Y -&amp;gt; X&lt;/li>
+&lt;li>Accounts for statistical significance in addition to the magnitude of the log-likelihood values&lt;/li>
+&lt;/ul></description></item></channel></rss>
