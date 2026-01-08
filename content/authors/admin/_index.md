@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Simon Gravelle
+title: Stella Huang
 
 # Full name (for SEO)
-first_name: Simon
-last_name: Gravelle
+first_name: Stella
+last_name: Huang
 
 # Status emoji
 status:
@@ -14,28 +14,31 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: CNRS research scientist
+role: Ph.D. Candidate in Statistics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: LIPhy, Grenoble, France
-    url: https://liphy.univ-grenoble-alpes.fr/
+  - name: University of California, Los Angeles
+    url: https://statistics.ucla.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Computer physicist in soft matter and fluids at interfaces in LIPhy (UGA, CNRS), in Grenoble, France.
+bio: Ph.D. Candidate in Statistics with research focus on causal learning/discovery, graphical models, and latent variable modeling
 
 # Interests to show in About widget
 interests:
-  - Soft Matter
-  - Fluid at interface
-  - Computer simulations
+  - Causal machine learning
+  - Graphical models
+  - Latent variable modeling
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Nanofluidics
-      institution: University of Lyon (France)
-      year: 2015
+    - course: Ph.D. in Statistics
+      institution: University of California, Los Angeles
+      year: 2020 -
+    - course: B.S. in Computational Mathemtics, minor in Statistics
+      institution: University of California, Los Angeles
+      year: 2016 - 2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -45,46 +48,52 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:simon.gravelle@cnrs.fr
+    link: stellahyh@g.ucla.edu
   - icon: github
     icon_pack: fab
-    link: https://github.com/simongravelle
+    link: https://github.com/stehuang
     display:
       header: true
-  - icon: mastodon
+  - icon: linkedin
     icon_pack: fab
-    link: https://mastodon.social/@simongravelle
-    label: Follow me on Mastodon
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.com/citations?user=9fD2JlYAAAAJ&hl
-  - icon: cv
-    icon_pack: ai
-    link: files/resume/resume-simon-gravelle.pdf
+    link: https://www.linkedin.com/in/stehhuang/
 
 highlight_name: true # Highlight the author in author lists? (true/false)
 ---
 
-### About me ##
+#### About me ##
 
-I am a computational physicist specializing in soft matter and fluids at interfaces, working at the LIPhy institute in Grenoble, France. In parallel, I serve as the Scientific Secretary of Section 08 of the National Committee.
+Hello! I am a final year Ph.D. candidate in Statistics at UCLA. My research focuses on causal learning, graphical models, and latent variable modeling. I am fortunate to be advised by Professor <a href="http://www.stat.ucla.edu/~zhou/index.html" target="_blank" style="text-decoration: none;">Qing Zhou</a>. Before my Ph.D. studies, I obtained a B.S. in Computational Mathematics and minor in Statistics from UCLA.
 
-<a href="https://github.com/simongravelle" target="_blank" style="float: right">
+<!-- 
+<a href="https://github.com/stehuang" target="_blank" style="float: right">
   <img src="https://raw.githubusercontent.com/simongravelle/simongravelle.github.io/refs/heads/main/static/img/water-in-polymer.png" alt="Water in polymer - molecular dynamics" width="200">
-</a>
+</a> -->
 
 <span style="display: block; height: 8px;"></span>
 
-### What I share on <a href="https://github.com/simongravelle" target="_blank" style="text-decoration: none;">GitHub</a> ##
 
-  - Input files for molecular simulations
-  - Scripts for preparing and analyzing simulations
-  - Data and scripts from my recent publications
+#### Research areas ##
 
-<span style="display: block; height: 8px;"></span>
+##### Causal machine learning:
+  - Devising algorithms to determine causal and effect relations from a collection of observed variables using machine learning methods
+  - Using conditional independence tests, (non-parametric) model selection methods, and graphical properties to infer the existence and directionality of causality
 
-### My primary outreach projects ##
+##### Graphical models:
+  - Modeling and representing variables relations under fully observed variables and possibly unobserved variables through graphical models
+<!--   - Utilizing graphical properties to assist in infering causal relations and existence of hidden variables -->
 
-  - <a href="https://github.com/lammpstutorials" target="_blank" style="text-decoration: none;">LAMMPS tutorials</a> for LAMMPS beginners
-  - <a href="https://github.com/mdcourse" target="_blank" style="text-decoration: none;">Guides</a> for implementing molecular simulations from scratch
+##### Latent variable modeling:
+  - Using machine learning models and log-likelihood based methods to (1) distinguish between confounding vs causal relations, (2) infer feasibility of finding causal effect, and (3) determining the causal direction
+
+
+
+
+
+
+
+
+
+
+
 

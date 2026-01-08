@@ -3,25 +3,11 @@
 
 # Academic template
 
-A simple academic template that is easy to deploy on GitHub page, and relatively
-easy to customize using css. You can find the [live](https://simongravelle.github.io/)
-version, and my resume [here](https://simongravelle.github.io/files/resume/resume-simon-gravelle.pdf).
-
-## Automatic update of the publication list
-
-The list of publications is updated automatically from Google Scholar using
-the [scholar-collector](https://github.com/simongravelle/scholar-collector).
-
-## Overview
-
-[![image](static/img/Screenshot01.png)](https://simongravelle.github.io/)
-
-[![image](static/img/Screenshot02.png)](https://simongravelle.github.io/)
-
 ## Credit
 
-This template was originally taken from [wowchemy](https://wowchemy.com/), with
-some custom CSS adapted from [nickballousite](https://github.com/nballou) webpage.
+This original template was originally taken from [wowchemy](https://wowchemy.com/), with
+some custom CSS adapted from [nickballousite](https://github.com/nballou) webpage. The changed template was adapted from [this site](https://simongravelle.github.io/).
+version
 
 ## How to build locally
 
@@ -38,7 +24,7 @@ After cloning this repository:
 - add your own content in the [content](content/) folder,
 - modify the custom css script in [assets/scss/custom.scss](assets/scss/custom.scss),
 - enter your publications in [content/publication/](content/publication/).
-- replace Simon Gravelle by your name in [layouts/partials/widgets/about.html](layouts/partials/widgets/about.html).
+- replace Stella Huang by your name in [layouts/partials/widgets/about.html](layouts/partials/widgets/about.html).
 
 ## How to deploy
 

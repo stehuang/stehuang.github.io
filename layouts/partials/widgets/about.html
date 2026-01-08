@@ -17,6 +17,8 @@
 {{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
 {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
 
+
+
 <!-- Uncomment to add a footer image
 <div>
   <a class="background-img" href="#img1"><img id="img1" src="img/footer.png" /></a>
@@ -45,7 +47,7 @@
               <rt>{{ $person.name_pronunciation }}</rt>
             </ruby>
           {{- else -}}
-            Simon Gravelle
+            Stella Huang
           {{- end -}}
         </h2>
 

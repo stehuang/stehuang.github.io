@@ -49,10 +49,10 @@
 }
 
 .article-container {
-  max-width: 850px;
+  // max-width: 1000px;
   padding: 0 20px 0 20px;
   margin: 0 auto 0 auto;
-  font-size: 18px;
+  font-size: 15px;
   text-align: justify;
 }
 
@@ -280,4 +280,24 @@ h2, h3 {
     }
   }
 }
+}
+
+// home section
+
+// .home-section {
+//   max-width: 2000px;
+//   max-height: 3000px;
+// }
+
+
+// .about-section {
+//   max-height: none;
+//   overflow: visible;
+// }
+
+
+/* Allow the About widget to expand to fit content */
+.wowchemy-about {
+    max-height: none !important;
+    overflow: visible !important;
 }
